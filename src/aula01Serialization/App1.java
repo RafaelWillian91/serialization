@@ -15,12 +15,13 @@ public class App1 {
         Client c1 = new Client(1, "Pedro", LocalDate.of(2020, 03, 25));
         System.out.println(c1);
 
-        Path p1 = Paths.get("C:\\Users\\rafaw\\OneDrive\\Documentos\\myOutJava\\file.bin");
+        Path p1 = Paths.get("file.bin");
 
         //This is a class in use to serialization java objects into output streams
         //widely used for data persistence
         //Files.newOutputStream(). This is a method offers a more flexible and modern to create an OutputStream
         ObjectOutputStream objStream = new ObjectOutputStream(Files.newOutputStream(p1));
+        //objStream object has an ability to serilization objects.
         objStream.writeObject(c1);
 
 

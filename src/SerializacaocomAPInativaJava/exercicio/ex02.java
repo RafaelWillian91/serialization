@@ -1,4 +1,4 @@
-package exercicio;
+package SerializacaocomAPInativaJava.exercicio;
 
 import java.util.List;
 

@@ -1,12 +1,11 @@
-package exercicio;
+package SerializacaocomAPInativaJava.exercicio;
 
-import serializationUtils.SerializationUtils;
+import SerializacaocomAPInativaJava.serializationUtils.SerializationUtils;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class ex01 {
 

@@ -1,6 +1,4 @@
-package serializationUtils;
-
-import aula01Serialization.Client;
+package SerializacaocomAPInativaJava.serializationUtils;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

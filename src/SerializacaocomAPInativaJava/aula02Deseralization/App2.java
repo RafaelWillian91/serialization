@@ -1,6 +1,6 @@
-package aula02Deseralization;
+package SerializacaocomAPInativaJava.aula02Deseralization;
 
-import aula01Serialization.Client;
+import SerializacaocomAPInativaJava.aula01Serialization.Client;
 
 
 import java.io.IOException;

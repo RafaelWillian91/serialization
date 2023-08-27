@@ -1,10 +1,7 @@
-package aula01Serialization;
+package SerializacaocomAPInativaJava.aula01Serialization;
 
 import java.io.Serializable;
-import java.text.DateFormat;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Client implements Serializable {

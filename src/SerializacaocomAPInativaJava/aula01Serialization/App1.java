@@ -1,7 +1,6 @@
-package aula01Serialization;
+package SerializacaocomAPInativaJava.aula01Serialization;
 
 import java.io.IOException;
-import java.io.InvalidClassException;
 import java.io.ObjectOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;

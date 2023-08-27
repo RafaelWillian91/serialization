@@ -1,11 +1,10 @@
-package serializationUtils;
+package SerializacaocomAPInativaJava.serializationUtils;
 
-import aula01Serialization.Client;
+import SerializacaocomAPInativaJava.aula01Serialization.Client;
 
 import java.nio.file.Path;
-import java.time.LocalDate;
 
-import static serializationUtils.SerializationUtils.*;
+import static SerializacaocomAPInativaJava.serializationUtils.SerializationUtils.*;
 
 public class Clienteapp3 {
 

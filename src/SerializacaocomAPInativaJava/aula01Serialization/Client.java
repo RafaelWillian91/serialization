@@ -16,16 +16,11 @@ public class Client implements Serializable {
 
     private transient final String document;
 
-    private int age;
     public Client(int id, String name, LocalDate birthDate){
 //        this.id = id;
 //        this.name = name;
 //        this.birthDate = birthDate;//birthDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         this( id,  name, birthDate, null);
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public Client(int id, String name, LocalDate birthDate, String document){

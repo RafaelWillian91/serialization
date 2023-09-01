@@ -1,5 +1,6 @@
-package SerializaçãoemJSONAPIJackson;
+package SerializaçãoemJSONAPIJackson.SerializacaoClassClient;
 
+import SerializaçãoemJSONAPIJackson.JacksonUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class App2 {

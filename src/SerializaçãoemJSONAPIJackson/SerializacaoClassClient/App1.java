@@ -1,4 +1,4 @@
-package SerializaçãoemJSONAPIJackson;
+package SerializaçãoemJSONAPIJackson.SerializacaoClassClient;
 
 import SerializacaocomAPInativaJava.aula01Serialization.Client;
 import com.fasterxml.jackson.core.JsonProcessingException;

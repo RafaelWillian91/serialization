@@ -1,11 +1,9 @@
-package SerializacaoItem;
+package SerializaçãoemJSONAPIJackson.SerializacaoItem;
 
 import SerializaçãoemJSONAPIJackson.JacksonUtils;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.*;
-import java.nio.file.Path;
 import java.util.List;
 
 public class App3 {

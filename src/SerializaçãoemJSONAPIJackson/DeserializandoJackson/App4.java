@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.w3c.dom.ranges.Range;
 
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.Random;
 
 public class App4 {
@@ -18,6 +19,7 @@ public class App4 {
         Range r1 = objectMapper.readValue(json, Range.class);
         System.out.println(json);
         System.out.println(r1);
+
     }
 
 
